@@ -1,4 +1,3 @@
-## Author:      t0pep0
 
 #all comments are about elements below the comment
 import http.client
@@ -84,5 +83,3 @@ class trade_api:
 
 
 #this is how you call functions from this class, you first need to initiate the class by binding it to a variable in this case "trade_api" and then you call "trade_api.function" which would be the same as saying "class.function(constructor variables)"
-trade_api=trade_api()
-#trade_api.Trade('btc_usd','sell',1000,0.01)
